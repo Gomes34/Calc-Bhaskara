@@ -39,7 +39,7 @@ function Calcular() {
             X2: ${LetterX2}`
         )
     } else  {
-        window.alert("O valor de a, b e c devem necessariamente serem positivos.");
+        window.alert("O valor de a, b e c devem necessariamente diferentes de zero.");
         Resultado.innerHTML = "Dicas: Uma incógnita sozinha representa o valor 1. Se ela não existe, talvez não seja uma equação de segundo grau."
     }
 }
